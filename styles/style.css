@@ -1,0 +1,121 @@
+@import url('./layout.css');
+
+
+body > nav ul {
+    display: flex;
+    justify-content: 
+    space-around;
+    background-color: #222f3e;
+}
+
+body > nav li {
+    padding: 2em;
+    
+
+}
+header, main, section, footer, article, aside, nav {
+    outline: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+body > nav a {
+    text-decoration: none;
+    color: #f368e0;
+}
+
+body > nav a:hover {
+    color: white;
+}
+
+header {
+   
+  
+    
+    display: flex;
+   
+    justify-content: center;
+    
+    color:white;
+    align-items: center;
+    
+}
+
+
+.content {
+    padding: 2em;
+    gap:1em;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.price {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+    margin: 1em;
+
+}
+.price:hover {
+    color: purple;
+
+}
+p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0.5em
+}
+
+article {
+    margin-right: 9em;
+    padding: 1em;
+
+
+} 
+h2 {
+    background-color: #333;
+    
+    color: white;
+    width: 250px;
+    padding: 4em;
+    font-size: larger;
+    
+
+}
+
+section {
+    padding: 0.2em;
+    width: 300px;
+  
+}
+
+
+
+
+#facebook {
+    width: 250px;
+    padding: 1em;
+    
+
+}
+
+#github {
+    width: 250px;
+    padding: 1em;
+  
+}
+
+#twitter {
+    padding: 1em;
+}
+
+
+footer {
+    margin-top: 0em;
+    margin-bottom: 20em;
+}
+
